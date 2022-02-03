@@ -19,7 +19,7 @@ com certificado de Moises ferreira de lima
 		String NIS = "12541632837";
 		String contractoSocialEletronic = "contractoSocialEletronic-MetaDados&Correçao";
 		
-		Date data = new Date();
+	Date data = new Date();
 		String nome = "Moises ferreira de lima";
 		boolean Udemy = true;String java = " Curso Java 2021 Completo"+"\n "
 		+" Do zero ao profissional "+"\n "+" abertura projeto";
@@ -96,12 +96,30 @@ com certificado de Moises ferreira de lima
 				"  Chave eletronica :"+chaveEletronicaInvestimentoEmRendaFixaBasicoAvançado+"\n"+
 						"#---------------------------------------------------------#"+"\n ";
 		
+		String cursoShellScript = "  Certificado de Conclusao "+
+		"\n "+"  Shell Script : Do Basico ao Profissional "
+				+"\n "+"   Moises Ferreira de lima "+"\n "+"  Data  17  de julho de 2021";
+		String duraçaoShellScript = "  Duraçao 5 Horas no total ";
+		String InstrutorShellScript = "  Mateus Muiher";String chaveEletronicaShellScript = "UC-84bfdadf-4483-4a20-942d-640562b430cb";
+		String certificadoShellScript =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
+				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
+				+"  conhecimento : Shell Script  "
+				+"\n"+cursoShellScript
+				+"\n "+"  Duraçao : "+duraçaoShellScript
+				+"\n "+"  Intrutor : "+InstrutorShellScript+"\n "+
+				"  Chave eletronica :"+chaveEletronicaShellScript+"\n"+
+						"#---------------------------------------------------------#"+"\n ";
+		
+		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
 				+ctps+"\n "+" Gmail : "+gmail+"\n "+" NIS : "+NIS+"\n "+contractoSocialEletronic
 				+"\n "+" Razao Social : "+razaoSocial+"\n "+" Nome fantasia : "+nomeFantasia+"\n "+certificadoJava+"\n "
 				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+certificadoNodeJsMongoDB
-				+"\n "+certificadoSerasaEnsina+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado+"\n "+data;
+				+"\n "+certificadoSerasaEnsina
+				+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado
+				+"\n "+certificadoShellScript+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
