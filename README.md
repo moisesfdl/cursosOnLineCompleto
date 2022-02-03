@@ -27,6 +27,7 @@ com certificado de Moises ferreira de lima
 		String curso = java;String dataCertificadoJava = " Data : 16 de julho de 2021";
 		String duraçaoCurso = " Duraçao 77 horas no total";
 		String certificadoJava =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
 		+"  Nome : "+nome+"\n "+"  Instituiçao Ensino : Udemy : "+instituiçaoEnsino+" !!"+"\n "+curso
 				+"\n "+dataCertificadoJava+"\n "+duraçaoCurso+"\n "+" Chave eletronica : "+chaveEletronica+"\n"+
 				"#---------------------------------------------------------#"+"\n ";
@@ -52,8 +53,21 @@ com certificado de Moises ferreira de lima
 				+"\n "+" do basico ao avançado em 12 de Maio de 2021 .";
 		String intrutorMsDos = " Luis Andre Rigo da Silva";
 		String certificadoMsDos = "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
 				+"  Nome :"+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
 				+"\n "+cursoMsDos+"\n "+"  Instrutor : "+intrutorMsDos+"\n "+
+						"#---------------------------------------------------------#"+"\n ";
+		String cursoNodeJsMongoDB = "  Certificamos que Moises Ferreira De Lima"+
+						"\n "+" concluiu com sucesso 15,5 horas no total do curso"+
+				"\n "+"  online Curso completo do Desenvolvedor NodeJs e "+
+						"\n "+" MongoDB em 12 Maio de 2021";
+		String instrutorNodeJsMongoDB = "  Jorge Iani Ina";String chaveEletronicaNodeJsMongoDB = "UC-219599bf-fc5e-4324-976a-3d5dcc387575";
+		String certificadoNodeJsMongoDB =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
+				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
+				+"  Curso Node JS & Mongo DB"
+				+"\n"+cursoNodeJsMongoDB+"\n "+"  Intrutor : "+instrutorNodeJsMongoDB+"\n "+
+				"  Chave eletronica :"+chaveEletronicaNodeJsMongoDB+"\n"+
 						"#---------------------------------------------------------#"+"\n ";
 		
 		
@@ -61,7 +75,7 @@ com certificado de Moises ferreira de lima
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
 				+ctps+"\n "+" Gmail : "+gmail+"\n "+" NIS : "+NIS+"\n "+contractoSocialEletronic
 				+"\n "+" Razao Social : "+razaoSocial+"\n "+" Nome fantasia : "+nomeFantasia+"\n "+certificadoJava+"\n "
-				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+data;
+				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+certificadoNodeJsMongoDB+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
