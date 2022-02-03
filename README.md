@@ -2,7 +2,8 @@
 com certificado de Moises ferreira de lima 
 
 
-    //#irpf//#cartorio-notas//#tabelionato-notas//#catorio
+		import java.util.Date;
+    		//#irpf//#cartorio-notas//#tabelionato-notas//#catorio
 		String http = "  "+"http";
 	
 		String hotmail= "moisesfdl_pbt@hotmail.com.br";
@@ -18,7 +19,7 @@ com certificado de Moises ferreira de lima
 		String NIS = "12541632837";
 		String contractoSocialEletronic = "contractoSocialEletronic-MetaDados&Correçao";
 		
-		Date data = new Date();
+			Date data = new Date();
 		String nome = "Moises ferreira de lima";
 		boolean Udemy = true;String java = " Curso Java 2021 Completo"+"\n "
 		+" Do zero ao profissional "+"\n "+" abertura projeto";
@@ -44,13 +45,23 @@ com certificado de Moises ferreira de lima
 				+"  Nome : "+nome+"\n "+proteFire+"\n "+"  Corpo de bombeiro :"+instituiçao
 				+"\n "+certificadoBrigadeiroIncendio+"\n "+"  Duraçao de :"+duraçaoCursoBrigadaIncendio+"\n "
 				+"  Palestrante : "+palestranteBrigadeiro+"\n "+"  Carimbo : "+carimboCorpoBombeiro+"\n "+
-				"#---------------------------------------------------------#"+"\n ";;
+				"#---------------------------------------------------------#"+"\n ";			
+		String cursoMsDos = "  Certificamos que Moises Ferreira De Lima"
+				+"\n "+"  concluiu com sucesso 2º horas no total do curso"
+				+"\n "+"  online Aprenda Ms-DOS (Prompt de Comando)"
+				+"\n "+" do basico ao avançado em 12 de Maio de 2021 .";
+		String intrutorMsDos = " Luis Andre Rigo da Silva";
+		String certificadoMsDos = "#---------------------------------------------------------¬"+"\n "
+				+"  Nome :"+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
+				+"\n "+cursoMsDos+"\n "+"  Instrutor : "+intrutorMsDos+"\n "+
+						"#---------------------------------------------------------#"+"\n ";
 		
 		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
 				+ctps+"\n "+" Gmail : "+gmail+"\n "+" NIS : "+NIS+"\n "+contractoSocialEletronic
-				+"\n "+" Razao Social : "+razaoSocial+"\n "+" Nome fantasia : "+nomeFantasia+"\n "+certificadoJava+"\n "+certificadoCorpoBombeiro+"\n "+data;
+				+"\n "+" Razao Social : "+razaoSocial+"\n "+" Nome fantasia : "+nomeFantasia+"\n "+certificadoJava+"\n "
+				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
