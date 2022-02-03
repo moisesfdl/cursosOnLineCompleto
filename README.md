@@ -19,7 +19,6 @@ com certificado de Moises ferreira de lima
 		String NIS = "12541632837";
 		String contractoSocialEletronic = "contractoSocialEletronic-MetaDados&Correçao";
 		
-		
 		Date data = new Date();
 		String nome = "Moises ferreira de lima";
 		boolean Udemy = true;String java = " Curso Java 2021 Completo"+"\n "
@@ -121,12 +120,28 @@ com certificado de Moises ferreira de lima
 		String certificadoCursoC =  "#---------------------------------------------------------¬"+"\n "
 				+"  certificado Udemy "+"\n "
 				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
-				+"  conhecimento : Shell Script  "
+				+"\n "+"    Conhecimento :  C++  "
 				+"\n"+cursoC
 				+"\n "+"  Duraçao : "+DuraçaoCursoC
 				+"\n "+"  Intrutor : "+intrutorC+"\n "+
 				"  Chave eletronica :"+chaveCursoC+"\n"+
 						"#---------------------------------------------------------#"+"\n ";
+		String cursoPilotagemDrone = "  Certificamos que Moises Ferreira de Lima"
+						+"\n "+"  concluiu com exito 3.5 total hours do curso online"
+				+"\n "+"  Curso completo de drones em 17 de Novembro de 2020";
+		String intrutorPilotagemDrone = "  Francisco Clever";
+		String duraçaoPilotagemDrone = "  3.5 total hours online";
+		String chaveEletronicaPilotagemDrone = "UC-e4115d59-dc08-4dcf-a444-601035e4b574-1";
+		String certificadoPilotagemDrone =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
+				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
+				+"\n "+"     Conhecimento Pilotagem Drone  "
+				+"\n"+cursoPilotagemDrone
+				+"\n "+"  Duraçao : "+duraçaoPilotagemDrone
+				+"\n "+"  Intrutor : "+intrutorPilotagemDrone+"\n "+
+				"  Chave eletronica :"+chaveEletronicaPilotagemDrone+"\n"+
+						"#---------------------------------------------------------#"+"\n ";
+		
 		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
@@ -135,7 +150,8 @@ com certificado de Moises ferreira de lima
 				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+certificadoNodeJsMongoDB
 				+"\n "+certificadoSerasaEnsina
 				+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado
-				+"\n "+certificadoShellScript+"\n "+certificadoCursoC+"\n "+data;
+				+"\n "+certificadoShellScript
+				+"\n "+certificadoCursoC+"\n "+certificadoPilotagemDrone+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
