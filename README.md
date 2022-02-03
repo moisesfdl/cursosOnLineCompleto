@@ -19,7 +19,7 @@ com certificado de Moises ferreira de lima
 		String NIS = "12541632837";
 		String contractoSocialEletronic = "contractoSocialEletronic-MetaDados&Correçao";
 		
-			Date data = new Date();
+		Date data = new Date();
 		String nome = "Moises ferreira de lima";
 		boolean Udemy = true;String java = " Curso Java 2021 Completo"+"\n "
 		+" Do zero ao profissional "+"\n "+" abertura projeto";
@@ -69,13 +69,39 @@ com certificado de Moises ferreira de lima
 				+"\n"+cursoNodeJsMongoDB+"\n "+"  Intrutor : "+instrutorNodeJsMongoDB+"\n "+
 				"  Chave eletronica :"+chaveEletronicaNodeJsMongoDB+"\n"+
 						"#---------------------------------------------------------#"+"\n ";
-		
+		boolean serasaEnsina = true;
+		boolean instituiçaoSerasa = serasaEnsina;String cursoSerasa = "Trilha Financeira"
+		+"\n "+"  Certificamos que Moises Ferreira De Lima"
+				+"\n "+"  Concluiu com total aproveitamento o curso"
+		+"\n "+"  Modulo 1 = Orçamento "
+				+"\n "+" Data : 13/10/2020";
+		String cargaHoraSerasa = "1Hora20Min !";
+		String certificadoSerasaEnsina =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
+				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Serasa :"+instituiçaoSerasa
+				+"  Curso Orçamento "
+				+"\n"+cursoSerasa+"\n "+"  Carga de hora : "+cargaHoraSerasa+"\n "+
+						"#---------------------------------------------------------#"+"\n "; 
+		String cursoInvestimentoEmRendaFixaBasicoAvançado = "  Certificamos que Moises Ferreira De Lima"+
+						"\n "+"  concluiu com exito 3.5Total hours do curso online"
+				+"\n "+"  Investimento em Renda Fixa do Basico ao Avançado"
+						+"\n "+"  em 31 de Outubro de 2020";
+		String instrutorInvestimentoEmRendaFixaBasicoAvançado = "  Leonardo Baldochi ";
+		String  chaveEletronicaInvestimentoEmRendaFixaBasicoAvançado = "UC- b173cfc6-11d4-4ad8-9f19-2914f2782ba1";
+		String certificadoInvestimentoEmRendaFixaBasicoAvançado =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
+				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
+				+"  Investimento Renda Fixa Basico ao Avançado "
+				+"\n"+cursoInvestimentoEmRendaFixaBasicoAvançado+"\n "+"  Intrutor : "+instrutorInvestimentoEmRendaFixaBasicoAvançado+"\n "+
+				"  Chave eletronica :"+chaveEletronicaInvestimentoEmRendaFixaBasicoAvançado+"\n"+
+						"#---------------------------------------------------------#"+"\n ";
 		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
 				+ctps+"\n "+" Gmail : "+gmail+"\n "+" NIS : "+NIS+"\n "+contractoSocialEletronic
 				+"\n "+" Razao Social : "+razaoSocial+"\n "+" Nome fantasia : "+nomeFantasia+"\n "+certificadoJava+"\n "
-				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+certificadoNodeJsMongoDB+"\n "+data;
+				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+certificadoNodeJsMongoDB
+				+"\n "+certificadoSerasaEnsina+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
