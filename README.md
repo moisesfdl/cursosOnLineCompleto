@@ -19,7 +19,8 @@ com certificado de Moises ferreira de lima
 		String NIS = "12541632837";
 		String contractoSocialEletronic = "contractoSocialEletronic-MetaDados&Correçao";
 		
-	Date data = new Date();
+		
+		Date data = new Date();
 		String nome = "Moises ferreira de lima";
 		boolean Udemy = true;String java = " Curso Java 2021 Completo"+"\n "
 		+" Do zero ao profissional "+"\n "+" abertura projeto";
@@ -110,7 +111,22 @@ com certificado de Moises ferreira de lima
 				+"\n "+"  Intrutor : "+InstrutorShellScript+"\n "+
 				"  Chave eletronica :"+chaveEletronicaShellScript+"\n"+
 						"#---------------------------------------------------------#"+"\n ";
-		
+		String cursoC = "  Certificamos que Moises Ferreira de Lima"
+						+"\n "+"  concluiu com exito 19 total hours do curso online"
+				+"\n "+"  Aprendendo programaçao basica ao Avançado com "
+						+"\n "+"  liguagem C++ em 4 Maio de 2021";
+		String intrutorC = "  Professor Marcos Pacheco (Mestre em Computaçao)";
+		String DuraçaoCursoC = "  19 horas online";
+		String chaveCursoC = "UC-de898231-9266-4218-9189-bfb75547509a";
+		String certificadoCursoC =  "#---------------------------------------------------------¬"+"\n "
+				+"  certificado Udemy "+"\n "
+				+"  Nome : "+nome+"\n "+" Instituiçao de ensino : Udemy :"+instituiçaoEnsino
+				+"  conhecimento : Shell Script  "
+				+"\n"+cursoC
+				+"\n "+"  Duraçao : "+DuraçaoCursoC
+				+"\n "+"  Intrutor : "+intrutorC+"\n "+
+				"  Chave eletronica :"+chaveCursoC+"\n"+
+						"#---------------------------------------------------------#"+"\n ";
 		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
@@ -119,7 +135,7 @@ com certificado de Moises ferreira de lima
 				+certificadoCorpoBombeiro+"\n "+certificadoMsDos+"\n "+certificadoNodeJsMongoDB
 				+"\n "+certificadoSerasaEnsina
 				+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado
-				+"\n "+certificadoShellScript+"\n "+data;
+				+"\n "+certificadoShellScript+"\n "+certificadoCursoC+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
