@@ -173,6 +173,35 @@ com certificado de Moises ferreira de lima
 				+"\n "+
 				"#---------------------------------------------------------#"+"\n ";
 		
+		boolean senaiSantosDumont = true;
+		boolean instituiçaoSenai = senaiSantosDumont;
+		String certificadoEscolaSenai = "  Republica Federativa do Brasil"
+				+"\n "+"  Serviço Nacional De Aprendizagem Industrial"
+				+"\n "+"  Departamento Regional De Sao Paulo"
+				+"\n "+"  Escola Senai Santos Dumont "
+				+"\n "+"  Rua Pedro Rachjde , 304- Sao jose dos campos"
+				+"\n "+"  Reconhecida pela Portaria CEE nº 10/80"
+				+"\n "+"    Nº   302-00/6132-9.687"
+				+"\n "+"    Certificado "
+				+"\n "+"  AUTOMATIZAÇAO PNEUMATICA/HIDRAULICA-BASICA"
+				+"\n "+"  Certifica-se Moises Ferreira De Lima, "
+				+"\n "+"  portador do Rg:27.950.938-8/SP, concluiu com aproveitamento o curso "
+				+"\n "+"  supra- referido , com duraçao de *60* horas-aulas"
+				+"\n "+"  Sao jose dos campos , 14 de junho de 2000"
+				+"\n "+" Secretario : Donizetti Caetano De Menezes Filho "
+						+ "\n "+" Rg : 5649430/SP"
+						+"\n "+"  MEC 969/81-DR-5"
+				+"\n "+"  Diretor : Antonio Ferreira Dos Santos Filhos"
+						+"\n "+"  Rg : 4833331/SP"
+				+"\n "+"  MEC 44.635/88-DR-5"
+		+"\n"+"FIES/CESP/SESI/SENAI/IRS";
+		String duraçaoCursoSenai = "  60 Horas Modulo 1";
+		String certificadoSenai = "#---------------------------------------------------------¬"+"\n "
+				+"  Nome : "+nome+"\n "+"  Escola Senai curso tecnico : "+instituiçaoSenai
+				+"\n "+certificadoEscolaSenai+"\n "+"  Duraçao de :"+duraçaoCursoSenai+"\n "
+				+"\n "+
+				"#---------------------------------------------------------#"+"\n ";
+		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
 				+ctps+"\n "+" Gmail : "+gmail+"\n "+" NIS : "+NIS+"\n "+contractoSocialEletronic
@@ -182,7 +211,7 @@ com certificado de Moises ferreira de lima
 				+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado
 				+"\n "+certificadoShellScript
 				+"\n "+certificadoCursoC+"\n "+certificadoPilotagemDrone
-				+"\n "+certificadoLojaMappin+"\n "+certificadoCorpoBombeiro2+"\n "+data;
+				+"\n "+certificadoLojaMappin+"\n "+certificadoCorpoBombeiro2+"\n "+certificadoSenai+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
