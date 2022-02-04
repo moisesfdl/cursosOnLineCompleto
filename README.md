@@ -159,6 +159,20 @@ com certificado de Moises ferreira de lima
 				"#---------------------------------------------------------#"+"\n ";
 		
 		
+		boolean lojaMappin = true;
+		boolean Instituiçao = lojaMappin;
+		String CertificadoArranqueTotal97 = "  Parabens !!!"
+				+"\n "+"  MOISES FERREIRA DE LIMA "
+				+"\n "+"  No mes de novembro de 1997"
+				+"\n "+"  O Mappin homenageia os melhores funcionarios"+"\n "+"  ma camapanha Arranque Total 97"
+				+"\n "+"  Sao Paulo , novembro de 1997"+"\n "+"  MAPPIN ";
+		String duraçaoArranqueVendas = " mes novembra , desembro ate janeiro";
+		String certificadoLojaMappin = "#---------------------------------------------------------¬"+"\n "
+				+"  Nome : "+nome+"\n "+"  Lojas Departamento Mappin : "+Instituiçao
+				+"\n "+CertificadoArranqueTotal97+"\n "+"  Duraçao de :"+duraçaoArranqueVendas+"\n "
+				+"\n "+
+				"#---------------------------------------------------------#"+"\n ";
+		
 		String MoisesFerreiraDeLima ="\n "+" "+nome+"\n "+" CPF : "+cpf+"\n "+" RG : "+rg+"\n "+" CNPJ : "
 				+cnpj+"\n "+" Hotmail : "+hotmail+"\n "+" Celular : "+celular+"\n "+" CTPS : "
 				+ctps+"\n "+" Gmail : "+gmail+"\n "+" NIS : "+NIS+"\n "+contractoSocialEletronic
@@ -167,7 +181,8 @@ com certificado de Moises ferreira de lima
 				+"\n "+certificadoSerasaEnsina
 				+"\n"+certificadoInvestimentoEmRendaFixaBasicoAvançado
 				+"\n "+certificadoShellScript
-				+"\n "+certificadoCursoC+"\n "+certificadoPilotagemDrone+"\n "+certificadoCorpoBombeiro2+"\n "+data;
+				+"\n "+certificadoCursoC+"\n "+certificadoPilotagemDrone
+				+"\n "+certificadoLojaMappin+"\n "+certificadoCorpoBombeiro2+"\n "+data;
 		
 		String declareIrpf = MoisesFerreiraDeLima;
 		String declareCloud = MoisesFerreiraDeLima;
